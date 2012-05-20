@@ -1,0 +1,6 @@
+[Component]		[Value]				[Description]
+C1			0.1uF				0805 SMD Capacitor
+R1			4.7K				0805 SMD Resistor
+R2			4.7K				0805 SMD Resistor
+J1			4P Pin Header			4 Position Pin Header
+U1			SHT15				Sensirion Humidity/Temperature Sensor

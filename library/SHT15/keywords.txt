@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For SHT15
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SHT15	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+measure	KEYWORD2
+tempC	KEYWORD2
+tempF	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TEMPC	LITERAL1
+TEMPF	LITERAL1
+HUMI	LITERAL1
