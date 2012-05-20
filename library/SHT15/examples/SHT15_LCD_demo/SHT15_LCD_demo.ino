@@ -13,7 +13,6 @@
 // create LCD object
 LCD lcd;
 
-// default pins for Wireless Thermostat board is SDA = 16, SCL = 17
 SHT15 sensor;  
 
 // degree symbol
@@ -21,8 +20,9 @@ const char degree = 223;
 
 void setup()
 {
-  sensor.init(16, 17);  // init SHT15 sensor. Arduino pins A2 and A3
-  lcd.begin(20, 4);  // setup LCD number or columns and rows
+  // Init SHT15 sensor. SDA = D16 (Analog 2), SCL = D17 (Analog 3)
+  sensor.init(16, 17);
+  lcd.begin(20, 4);
      
   lcd.clear();
   

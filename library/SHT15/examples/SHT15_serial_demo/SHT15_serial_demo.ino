@@ -8,12 +8,12 @@
 
 #include <SHT15.h>
 
-// Default pins for Wireless Thermostat board is SDA = 16, SCL = 17
 SHT15 sensor;
 
 void setup()
 {
-   sensor.init(16, 17);  // init SHT15 sensor. Arduino pins A2 and A3
+   // Init SHT15 sensor. SDA = D16 (Analog 2), SCL = D17 (Analog 3)
+   sensor.init(16, 17);
    Serial.begin(9600);
    Serial.println("--SHT15 Demo--");
 }
