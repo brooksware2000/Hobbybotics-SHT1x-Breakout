@@ -13,8 +13,7 @@ SHT15 sensor;
 
 void setup()
 {
-   sensor.init(); // init SHT15 sensor
-   //sensor.init(16, 17); // init SHT15 sensor
+   sensor.init(16, 17);  // init SHT15 sensor. Arduino pins A2 and A3
    Serial.begin(9600);
    Serial.println("--SHT15 Demo--");
 }

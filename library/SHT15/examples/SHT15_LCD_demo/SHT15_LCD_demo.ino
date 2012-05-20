@@ -21,8 +21,7 @@ const char degree = 223;
 
 void setup()
 {
-  sensor.init();  // init SHT15 sensor
-  //sensor.init(16, 17);  // init SHT15 sensor
+  sensor.init(16, 17);  // init SHT15 sensor. Arduino pins A2 and A3
   lcd.begin(20, 4);  // setup LCD number or columns and rows
      
   lcd.clear();
